@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - polymer-cli > web-component-tester > wct-sauce > lodash:
+        patched: '2023-08-30T15:39:06.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: polymer-cli > web-component-tester > wct-sauce > lodash
+    - polymer-cli > web-component-tester > wct-local > selenium-standalone > lodash:
+        patched: '2023-08-30T15:39:06.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          polymer-cli > web-component-tester > wct-local > selenium-standalone >
+          lodash
+    - polymer-cli > web-component-tester > wct-sauce > sauce-connect-launcher > lodash:
+        patched: '2023-08-30T15:39:06.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          polymer-cli > web-component-tester > wct-sauce >
+          sauce-connect-launcher > lodash
